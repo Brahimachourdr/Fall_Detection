@@ -34,3 +34,7 @@ Contains the simulation output data and network performance visualization tools:
   2. Variance-based adaptive transmission
   3. Postural transition-based event-driven transmission
 * **`Communication_Analysis.ipynb`:** Python notebook for processing the raw CSV simulation logs, computing network metrics, and generating publication-ready plots for throughput, radio duty cycle, cumulative data volume, and end-to-end latency.
+
+
+
+> 🌐 **Language Note:** The codebase and variable names are predominantly written in **English**. However, some internal print messages, console logs, comments, or class labels (e.g., `chute` for *Fall*, `autre` for *Other ADL*) may occasionally appear in **French**.
