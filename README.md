@@ -3,28 +3,10 @@
 
 This repository contains the dataset, the deep learning model training notebooks, the unified ablation study scripts, as well as the Python visualization pipeline and raw simulation data generated for analyzing wireless communication strategies (WBAN / IoT).
 
----
-
-## 📂 Repository Layout
-├── 01_Dataset/
-│   ├── Local_Dataset/                # Triaxial accelerometer data converted into 2D spatio-temporal images (ESP32 / MPU-6050)
-│   └── SisFall_Public_Benchmark/     # Resampled public SisFall benchmark dataset transformed into 2D spatio-temporal images
-│
-├── 02_Model_Training_Exp1_Exp2/
-│   ├── exp1_train_and_visualizations.ipynb
-│   ├── exp2_train_and_confidence_scores.ipynb
-│   └── exp2_visualizations.ipynb
-│
-├── 03_Ablation_Study/
-│   └── Model_Variants_and_Statistical_Tests.ipynb   # Single unified notebook for architectural variants & statistical testing
-│
-└── 04_Wireless_Communication_Analysis/
-├── Simulation_Results/           # Raw CSV export files generated from OMNeT++ 6.3 / INET 4.5.4 simulations
-└── Communication_Analysis.ipynb  # Python processing and plotting notebook (Throughput, Radio Duty Cycle, Latency, Data Volume)
 
 
 
----
+
 
 ## 🗂️ Detailed Directory Overview
 
